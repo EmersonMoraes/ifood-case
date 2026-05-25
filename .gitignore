@@ -1,0 +1,43 @@
+﻿# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados brutos e processados
+data/raw/
+data/processed/
+*.parquet
+*.csv
+*.json
+
+# Arquivos temporários
+tmp/
+temp/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Databricks / Spark
+.spark-warehouse/
+metastore_db/
+derby.log
